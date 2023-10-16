@@ -1,0 +1,42 @@
+echo "hello world"
+pwd
+ls
+cat *
+tail -5 access.log
+touch take-the-command-challenge
+mkdir tmp tmp/files
+cp take-the-command-challenge tmp/files
+mv take-the-command-challenge tmp/files
+ln -s tmp/files/take-the-command-challenge
+find . -delete
+find -name "*.doc" -delete
+grep GET access.log
+grep GET access.log
+ls
+grep -rh 500
+grep -ro ^[0-9.]*
+ls -l | wc -l
+sort access.log
+grep GET access.log | wc -l
+cat split-me.txt | tr ";" "\n"
+echo {1..100}
+rm -r **/*.txt
+jq -s add sum-me.txt
+ls -R | grep [a-z]
+rm -rf *
+ls | tr ' ' '.'
+dirname **/*.tf | uniq
+ls -R | grep ^[0-9] | grep -v dir
+cat faces.txt | head -25 | tail -1
+tac *
+awk '!c[$0]++' faces.txt
+cat random-numbers.txt | sort|uniq | factor | awk 'NF==2'| wc -l
+awk 's[$1]++{print $1}' a*
+grep -h -B1 404 **/access.log*|grep -vE '404|--'
+for f in t*; do cmp -s bas* $f || echo $f; done
+cat './.../  /. .the flag.txt'
+grep -P "\t" * | wc -l
+find -type f ! -name \*.txt ! -name \*.exe -exec rm -v '{}' \;
+rm ./-*
+cat ps-* | sort -k2 -n |uniq
+awk '/tcp .*LISTEN$/{print $4}' netstat*|awk -F: '{print $2}'|sort -nr
