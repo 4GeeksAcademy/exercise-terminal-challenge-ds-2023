@@ -1,0 +1,10 @@
+1- Print current directory path - answer is pwd
+2- List all the files from the current directory including the hidden ones - answer is ls -a
+3- Now list all the files inside the workspace, recursively (all files in the hierarchy) - answer is ls -R
+4- Go to the last level below the small-name folder and write in the console the content of the trophy.txt file - answer is cd /workspaces/exercise-terminal-challenge-ds-2023/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt and than cat trophy.txt
+5- Move back to the root and List all files with the JavaScript typical extension - answwer is cd / to go back to root than to list all files with the JavaScript typical extension we can do find / -type f -name "*.js"
+6- create a new folder inside `funcode/the-most-funny/` called "not-that-funny" - answer is cd /workspaces/exercise-terminal-challenge-ds-2023/thecmdchallenge/funcode/the-most-funny and than mkdir not-that-funny
+7- Create a copy of the last file you can find below the /boringfolder/ childs (the-mostboring-text.txt) - answer is cd /workspaces/exercise-terminal-challenge-ds-2023/thecmdchallenge/boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception and than cp the-mostboring-text.txt the-mostboring-text2.txt
+8 -  remove the "remove-me" folder from the funcode directory - answer is cd /workspaces/exercise-terminal-challenge-ds-2023/thecmdchallenge/funcode and than  rmdir remove-me
+9 -  print in the screen the-ultimate-joke.txt - answer is cd /workspaces/exercise-terminal-challenge-ds-2023/thecmdchallenge/funcode/the-most-funny/lol and than cat the-ultimate-joke.txt
+10 - remove all the contents from the boringfolder, they are extremely boring - answer is cd /workspaces/exercise-terminal-challenge-ds-2023/thecmdchallenge/boringfolder and than rm -rv *
